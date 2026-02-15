@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-mono;
+  }
+  
+  .light body {
+    @apply bg-light-background text-light-text-primary;
+  }
+}
+
+@layer components {
+  .terminal-card {
+    @apply bg-surface border border-border rounded p-md;
+  }
+  
+  .light .terminal-card {
+    @apply bg-light-surface border-light-border;
+  }
+  
+  .terminal-button {
+    @apply bg-transparent border border-accent text-accent px-md py-sm rounded 
+           hover:bg-accent hover:text-background transition-all duration-200 font-semibold;
+  }
+  
+  .terminal-input {
+    @apply bg-surface border border-border text-text-primary px-sm py-sm rounded
+           focus:outline-none focus:border-accent placeholder:text-text-secondary;
+  }
+  
+  .light .terminal-input {
+    @apply bg-light-surface border-light-border text-light-text-primary;
+  }
+  
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s infinite;
+  }
+}

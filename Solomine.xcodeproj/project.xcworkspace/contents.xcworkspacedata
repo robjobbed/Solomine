@@ -4,4 +4,25 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:CONTRIBUTING.md">
+   </FileRef>
+   <FileRef
+      location = "group:GITHUB_SETUP_GUIDE.md">
+   </FileRef>
+   <FileRef
+      location = "group:RELEASE_NOTES_TEMPLATE.md">
+   </FileRef>
+   <FileRef
+      location = "group:GIT_COMMANDS_REFERENCE.md">
+   </FileRef>
+   <FileRef
+      location = "group:GITHUB_READY.md">
+   </FileRef>
 </Workspace>
