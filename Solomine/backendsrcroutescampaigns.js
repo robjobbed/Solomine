@@ -9,7 +9,7 @@ const campaignContracts = [
     companyName: 'NeonCart',
     companyHandle: '@neoncart',
     title: 'US DTC Skincare - Creator Contract',
-    description: 'Recruiting creator and content affiliates for first-purchase CPA campaigns.',
+    description: 'Recruiting creator and content solominetes for first-purchase CPA campaigns.',
     category: 'INFLUENCERS',
     priority: 'HOT',
     monthlyPayoutCap: 6500,
@@ -103,7 +103,7 @@ router.post('/', authenticate, (req, res) => {
 
 /**
  * POST /api/campaign-contracts/:id/apply
- * Affiliate application to a campaign contract
+ * Solominete application to a campaign contract
  */
 router.post('/:id/apply', authenticate, (req, res) => {
   const { channelSummary, audienceSize, notes } = req.body;

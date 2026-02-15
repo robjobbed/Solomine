@@ -1,9 +1,9 @@
 const { serializeCookie, setCookies } = require("./_lib/cookies");
 const { randomString, buildAuthorizationUrl } = require("./_lib/providers");
 
-const OAUTH_STATE_COOKIE = "affilia_oauth_state";
-const OAUTH_PROVIDER_COOKIE = "affilia_oauth_provider";
-const OAUTH_CODE_VERIFIER_COOKIE = "affilia_oauth_code_verifier";
+const OAUTH_STATE_COOKIE = "solomine_oauth_state";
+const OAUTH_PROVIDER_COOKIE = "solomine_oauth_provider";
+const OAUTH_CODE_VERIFIER_COOKIE = "solomine_oauth_code_verifier";
 
 module.exports = async function handler(req, res) {
   if (req.method !== "GET") {

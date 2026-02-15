@@ -18,6 +18,7 @@ struct SolomineApp: App {
                     if authManager.currentUser?.role != nil {
                         // User is authenticated and has selected role
                         ModernMainView()
+                            .environmentObject(authManager)
                     } else {
                         // User is authenticated but needs to select role
                         RoleSelectionView()

@@ -1,19 +1,19 @@
-# Affilia
+# Solomine
 
-Affiliate network marketplace platform (AWIN/Impact/CJ-style concept) with:
-- iOS app (SwiftUI) for affiliates and companies
+Solominete network marketplace platform (AWIN/Impact/CJ-style concept) with:
+- iOS app (SwiftUI) for solominetes and companies
 - Node backend API scaffolding for campaign contracts
 - Web MVP prototype for browser-based flows
 
 ## Repository Layout
 
-- `Affilia/` iOS app source (rebranded in-app to Affilia)
-- `Affilia.xcodeproj` Xcode project
+- `Solomine/` iOS app source (rebranded in-app to Solomine)
+- `Solomine.xcodeproj` Xcode project
 - `web/` lightweight web MVP (`index.html`, `app.js`, `styles.css`)
 
 ## Core Product Direction
 
-- Affiliates can join the network and apply to campaign contracts
+- Solominetes can join the network and apply to campaign contracts
 - Companies can publish campaign contracts with commission terms
 - Contract model supports:
   - Commission type (`CPA`, `REV SHARE`, `HYBRID`)
@@ -24,12 +24,12 @@ Affiliate network marketplace platform (AWIN/Impact/CJ-style concept) with:
 ## Quick Start
 
 ### iOS
-1. Open `Affilia.xcodeproj` in Xcode.
-2. Build/run the `Affilia` scheme.
+1. Open `Solomine.xcodeproj` in Xcode.
+2. Build/run the `Solomine` scheme.
 
 ### Web MVP
 1. Open `web/index.html` in your browser.
-2. Use **Affiliate View** to browse contracts.
+2. Use **Solominete View** to browse contracts.
 3. Use **Company View** to publish a contract.
 
 ## Social Login (Web)
@@ -52,7 +52,7 @@ Implemented under `web/api/auth/*` for Vercel:
 ### Required Environment Variables (Vercel)
 
 Set these in your Vercel project:
-- `AFFILIA_SESSION_SECRET`
+- `SOLOMINE_SESSION_SECRET`
 - `X_CLIENT_ID`, `X_CLIENT_SECRET`, optional `X_REDIRECT_URI`
 - `IG_CLIENT_ID`, `IG_CLIENT_SECRET`, optional `IG_REDIRECT_URI`
 - `FB_CLIENT_ID`, `FB_CLIENT_SECRET`, optional `FB_REDIRECT_URI`

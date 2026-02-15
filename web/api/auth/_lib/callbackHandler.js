@@ -2,9 +2,9 @@ const { parseCookies, serializeCookie, setCookies } = require("./cookies");
 const { getProviderConfig } = require("./providers");
 const { createSessionToken, SESSION_COOKIE, SESSION_MAX_AGE_SECONDS } = require("./session");
 
-const OAUTH_STATE_COOKIE = "affilia_oauth_state";
-const OAUTH_PROVIDER_COOKIE = "affilia_oauth_provider";
-const OAUTH_CODE_VERIFIER_COOKIE = "affilia_oauth_code_verifier";
+const OAUTH_STATE_COOKIE = "solomine_oauth_state";
+const OAUTH_PROVIDER_COOKIE = "solomine_oauth_provider";
+const OAUTH_CODE_VERIFIER_COOKIE = "solomine_oauth_code_verifier";
 
 function redirect(res, location) {
   res.writeHead(302, { Location: location });

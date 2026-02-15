@@ -1,6 +1,6 @@
 //
 //  AnimatedCard.swift
-//  Affilia
+//  Solomine
 //
 //  Created by Rob Behbahani on 2/3/26.
 //

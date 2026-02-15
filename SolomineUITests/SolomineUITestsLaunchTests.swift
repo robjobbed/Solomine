@@ -1,13 +1,13 @@
 //
-//  AffiliaUITestsLaunchTests.swift
-//  AffiliaUITests
+//  SolomineUITestsLaunchTests.swift
+//  SolomineUITests
 //
 //  Created by Rob Behbahani on 2/3/26.
 //
 
 import XCTest
 
-final class AffiliaUITestsLaunchTests: XCTestCase {
+final class SolomineUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

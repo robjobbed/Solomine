@@ -1,6 +1,6 @@
-const affiliateTab = document.getElementById("affiliateTab");
+const solomineteTab = document.getElementById("solomineteTab");
 const companyTab = document.getElementById("companyTab");
-const affiliatePanel = document.getElementById("affiliatePanel");
+const solominetePanel = document.getElementById("solominetePanel");
 const companyPanel = document.getElementById("companyPanel");
 const campaignList = document.getElementById("campaignList");
 const contractForm = document.getElementById("contractForm");
@@ -25,10 +25,10 @@ const providerLabels = {
 };
 
 const STORAGE_KEYS = {
-  demoSession: "affilia_demo_session",
-  postedContracts: "affilia_posted_contracts",
-  appliedContracts: "affilia_applied_contract_ids",
-  activePanel: "affilia_active_panel"
+  demoSession: "solomine_demo_session",
+  postedContracts: "solomine_posted_contracts",
+  appliedContracts: "solomine_applied_contract_ids",
+  activePanel: "solomine_active_panel"
 };
 
 const seededContracts = [
@@ -51,7 +51,7 @@ const seededContracts = [
     companyName: "FlowLedger",
     companyHandle: "@flowledger",
     title: "B2B SaaS Rev Share Program",
-    description: "Need newsletter and content affiliates in fintech and founder ecosystems.",
+    description: "Need newsletter and content solominetes in fintech and founder ecosystems.",
     category: "EMAIL",
     commissionType: "REV SHARE",
     commissionValue: 30,
@@ -251,8 +251,8 @@ function createDemoUser(provider) {
   return {
     provider,
     providerUserId: `demo-${provider}`,
-    username: `${provider}_affiliate`,
-    displayName: `${label} Affiliate`,
+    username: `${provider}_solominete`,
+    displayName: `${label} Solominete`,
     avatarUrl: null,
     email: null,
     isDemo: true
@@ -377,17 +377,17 @@ function renderContracts() {
 }
 
 function setPanel(role) {
-  const isAffiliate = role === "affiliate";
-  affiliatePanel.classList.toggle("hidden", !isAffiliate);
-  companyPanel.classList.toggle("hidden", isAffiliate);
-  affiliateTab.classList.toggle("active", isAffiliate);
-  companyTab.classList.toggle("active", !isAffiliate);
-  affiliateTab.setAttribute("aria-selected", String(isAffiliate));
-  companyTab.setAttribute("aria-selected", String(!isAffiliate));
-  writeStorageJson(STORAGE_KEYS.activePanel, isAffiliate ? "affiliate" : "company");
+  const isSolominete = role === "solominete";
+  solominetePanel.classList.toggle("hidden", !isSolominete);
+  companyPanel.classList.toggle("hidden", isSolominete);
+  solomineteTab.classList.toggle("active", isSolominete);
+  companyTab.classList.toggle("active", !isSolominete);
+  solomineteTab.setAttribute("aria-selected", String(isSolominete));
+  companyTab.setAttribute("aria-selected", String(!isSolominete));
+  writeStorageJson(STORAGE_KEYS.activePanel, isSolominete ? "solominete" : "company");
 }
 
-affiliateTab.addEventListener("click", () => setPanel("affiliate"));
+solomineteTab.addEventListener("click", () => setPanel("solominete"));
 companyTab.addEventListener("click", () => setPanel("company"));
 
 contractForm.addEventListener("submit", (event) => {
@@ -425,8 +425,8 @@ contractForm.addEventListener("submit", (event) => {
   persistPostedContracts();
   contractForm.reset();
   renderContracts();
-  setPanel("affiliate");
-  setAppMessage(`Contract "${newContract.title}" published and visible to affiliates.`, false);
+  setPanel("solominete");
+  setAppMessage(`Contract "${newContract.title}" published and visible to solominetes.`, false);
 });
 
 authButtons.forEach((button) => {
@@ -436,8 +436,8 @@ authButtons.forEach((button) => {
 logoutBtn.addEventListener("click", logout);
 
 function restorePanelPreference() {
-  const savedPanel = readStorageJson(STORAGE_KEYS.activePanel, "affiliate");
-  setPanel(savedPanel === "company" ? "company" : "affiliate");
+  const savedPanel = readStorageJson(STORAGE_KEYS.activePanel, "solominete");
+  setPanel(savedPanel === "company" ? "company" : "solominete");
 }
 
 async function init() {

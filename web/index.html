@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Affilia Web MVP</title>
+    <title>Solomine Web MVP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -14,8 +14,8 @@
 
     <section id="authGate" class="auth-gate">
       <div class="auth-card">
-        <p class="eyebrow">Affiliate Network Access</p>
-        <h1>AFFILIA</h1>
+        <p class="eyebrow">Solominete Network Access</p>
+        <h1>SOLOMINE</h1>
         <p class="auth-copy">Log in with a social account to access campaign contracts.</p>
 
         <div id="authProviderList" class="auth-provider-list">
@@ -32,8 +32,8 @@
     <div id="appShell" class="hidden">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Affiliate Network MVP</p>
-          <h1>AFFILIA</h1>
+          <p class="eyebrow">Solominete Network MVP</p>
+          <h1>SOLOMINE</h1>
         </div>
 
         <div id="sessionChip" class="session-chip hidden">
@@ -46,7 +46,7 @@
         </div>
 
         <div class="role-switch" role="tablist" aria-label="Role switch">
-          <button id="affiliateTab" class="tab active" role="tab" aria-selected="true">Affiliate View</button>
+          <button id="solomineteTab" class="tab active" role="tab" aria-selected="true">Solominete View</button>
           <button id="companyTab" class="tab" role="tab" aria-selected="false">Company View</button>
         </div>
       </header>
@@ -54,10 +54,10 @@
       <main>
         <p id="appMessage" class="app-message hidden" role="status" aria-live="polite"></p>
 
-        <section id="affiliatePanel" class="panel">
+        <section id="solominetePanel" class="panel">
           <div class="panel-head">
             <h2>Open Campaign Contracts</h2>
-            <p>Browse company contracts and apply as an affiliate partner.</p>
+            <p>Browse company contracts and apply as an solominete partner.</p>
           </div>
           <div id="campaignList" class="cards"></div>
         </section>
@@ -65,7 +65,7 @@
         <section id="companyPanel" class="panel hidden">
           <div class="panel-head">
             <h2>Post a Campaign Contract</h2>
-            <p>Create terms affiliates can apply to immediately.</p>
+            <p>Create terms solominetes can apply to immediately.</p>
           </div>
 
           <form id="contractForm" class="contract-form">
@@ -112,7 +112,7 @@
             </label>
             <label class="span-2">
               Contract description
-              <textarea name="description" required placeholder="Describe your product, terms, and ideal affiliate profile."></textarea>
+              <textarea name="description" required placeholder="Describe your product, terms, and ideal solominete profile."></textarea>
             </label>
             <button type="submit">Publish Contract</button>
           </form>

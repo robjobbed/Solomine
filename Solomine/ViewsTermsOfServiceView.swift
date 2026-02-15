@@ -168,7 +168,7 @@ struct TermsOfServiceView: View {
                     Section {
                         NumberedSectionHeader(number: "8", "Limitation of Liability")
                         
-                        Text("To the fullest extent permitted by law, Solomine and its affiliates shall not be liable for:")
+                        Text("To the fullest extent permitted by law, Solomine and its solominetes shall not be liable for:")
                             .font(Theme.Typography.body)
                             .foregroundColor(Theme.Colors.textSecondary)
                         

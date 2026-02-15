@@ -12,37 +12,37 @@
 			containerPortal = D41796622F32845300B00DF8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D41796692F32845300B00DF8;
-			remoteInfo = Affilia;
+			remoteInfo = Solomine;
 		};
 		D41796842F32845400B00DF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41796622F32845300B00DF8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D41796692F32845300B00DF8;
-			remoteInfo = Affilia;
+			remoteInfo = Solomine;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D417966A2F32845300B00DF8 /* Affilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affilia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D41796792F32845400B00DF8 /* AffiliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffiliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D41796832F32845400B00DF8 /* AffiliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffiliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D417966A2F32845300B00DF8 /* Solomine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solomine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41796792F32845400B00DF8 /* SolomineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolomineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41796832F32845400B00DF8 /* SolomineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolomineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D417966C2F32845300B00DF8 /* Affilia */ = {
+		D417966C2F32845300B00DF8 /* Solomine */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Affilia;
+			path = Solomine;
 			sourceTree = "<group>";
 		};
-		D417967C2F32845400B00DF8 /* AffiliaTests */ = {
+		D417967C2F32845400B00DF8 /* SolomineTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AffiliaTests;
+			path = SolomineTests;
 			sourceTree = "<group>";
 		};
-		D41796862F32845400B00DF8 /* AffiliaUITests */ = {
+		D41796862F32845400B00DF8 /* SolomineUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AffiliaUITests;
+			path = SolomineUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		D41796612F32845300B00DF8 = {
 			isa = PBXGroup;
 			children = (
-				D417966C2F32845300B00DF8 /* Affilia */,
-				D417967C2F32845400B00DF8 /* AffiliaTests */,
-				D41796862F32845400B00DF8 /* AffiliaUITests */,
+				D417966C2F32845300B00DF8 /* Solomine */,
+				D417967C2F32845400B00DF8 /* SolomineTests */,
+				D41796862F32845400B00DF8 /* SolomineUITests */,
 				D417966B2F32845300B00DF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		D417966B2F32845300B00DF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D417966A2F32845300B00DF8 /* Affilia.app */,
-				D41796792F32845400B00DF8 /* AffiliaTests.xctest */,
-				D41796832F32845400B00DF8 /* AffiliaUITests.xctest */,
+				D417966A2F32845300B00DF8 /* Solomine.app */,
+				D41796792F32845400B00DF8 /* SolomineTests.xctest */,
+				D41796832F32845400B00DF8 /* SolomineUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D41796692F32845300B00DF8 /* Affilia */ = {
+		D41796692F32845300B00DF8 /* Solomine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D417968D2F32845400B00DF8 /* Build configuration list for PBXNativeTarget "Affilia" */;
+			buildConfigurationList = D417968D2F32845400B00DF8 /* Build configuration list for PBXNativeTarget "Solomine" */;
 			buildPhases = (
 				D41796662F32845300B00DF8 /* Sources */,
 				D41796672F32845300B00DF8 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D417966C2F32845300B00DF8 /* Affilia */,
+				D417966C2F32845300B00DF8 /* Solomine */,
 			);
-			name = Affilia;
+			name = Solomine;
 			packageProductDependencies = (
 			);
-			productName = Affilia;
-			productReference = D417966A2F32845300B00DF8 /* Affilia.app */;
+			productName = Solomine;
+			productReference = D417966A2F32845300B00DF8 /* Solomine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D41796782F32845400B00DF8 /* AffiliaTests */ = {
+		D41796782F32845400B00DF8 /* SolomineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D41796902F32845400B00DF8 /* Build configuration list for PBXNativeTarget "AffiliaTests" */;
+			buildConfigurationList = D41796902F32845400B00DF8 /* Build configuration list for PBXNativeTarget "SolomineTests" */;
 			buildPhases = (
 				D41796752F32845400B00DF8 /* Sources */,
 				D41796762F32845400B00DF8 /* Frameworks */,
@@ -131,18 +131,18 @@
 				D417967B2F32845400B00DF8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D417967C2F32845400B00DF8 /* AffiliaTests */,
+				D417967C2F32845400B00DF8 /* SolomineTests */,
 			);
-			name = AffiliaTests;
+			name = SolomineTests;
 			packageProductDependencies = (
 			);
-			productName = AffiliaTests;
-			productReference = D41796792F32845400B00DF8 /* AffiliaTests.xctest */;
+			productName = SolomineTests;
+			productReference = D41796792F32845400B00DF8 /* SolomineTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D41796822F32845400B00DF8 /* AffiliaUITests */ = {
+		D41796822F32845400B00DF8 /* SolomineUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D41796932F32845400B00DF8 /* Build configuration list for PBXNativeTarget "AffiliaUITests" */;
+			buildConfigurationList = D41796932F32845400B00DF8 /* Build configuration list for PBXNativeTarget "SolomineUITests" */;
 			buildPhases = (
 				D417967F2F32845400B00DF8 /* Sources */,
 				D41796802F32845400B00DF8 /* Frameworks */,
@@ -154,13 +154,13 @@
 				D41796852F32845400B00DF8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D41796862F32845400B00DF8 /* AffiliaUITests */,
+				D41796862F32845400B00DF8 /* SolomineUITests */,
 			);
-			name = AffiliaUITests;
+			name = SolomineUITests;
 			packageProductDependencies = (
 			);
-			productName = AffiliaUITests;
-			productReference = D41796832F32845400B00DF8 /* AffiliaUITests.xctest */;
+			productName = SolomineUITests;
+			productReference = D41796832F32845400B00DF8 /* SolomineUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D41796652F32845300B00DF8 /* Build configuration list for PBXProject "Affilia" */;
+			buildConfigurationList = D41796652F32845300B00DF8 /* Build configuration list for PBXProject "Solomine" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D41796692F32845300B00DF8 /* Affilia */,
-				D41796782F32845400B00DF8 /* AffiliaTests */,
-				D41796822F32845400B00DF8 /* AffiliaUITests */,
+				D41796692F32845300B00DF8 /* Solomine */,
+				D41796782F32845400B00DF8 /* SolomineTests */,
+				D41796822F32845400B00DF8 /* SolomineUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		D417967B2F32845400B00DF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D41796692F32845300B00DF8 /* Affilia */;
+			target = D41796692F32845300B00DF8 /* Solomine */;
 			targetProxy = D417967A2F32845400B00DF8 /* PBXContainerItemProxy */;
 		};
 		D41796852F32845400B00DF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D41796692F32845300B00DF8 /* Affilia */;
+			target = D41796692F32845300B00DF8 /* Solomine */;
 			targetProxy = D41796842F32845400B00DF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,7 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Affilia;
+				INFOPLIST_KEY_CFBundleDisplayName = Solomine;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.Affilia;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Solomine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -429,7 +429,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Affilia;
+				INFOPLIST_KEY_CFBundleDisplayName = Solomine;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.Affilia;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Solomine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -461,7 +461,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.AffiliaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SolomineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -469,7 +469,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affilia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Affilia";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solomine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solomine";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.AffiliaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SolomineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -490,7 +490,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affilia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Affilia";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solomine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solomine";
 			};
 			name = Release;
 		};
@@ -501,7 +501,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.AffiliaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SolomineUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -509,7 +509,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Affilia;
+				TEST_TARGET_NAME = Solomine;
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.AffiliaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SolomineUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -528,14 +528,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Affilia;
+				TEST_TARGET_NAME = Solomine;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D41796652F32845300B00DF8 /* Build configuration list for PBXProject "Affilia" */ = {
+		D41796652F32845300B00DF8 /* Build configuration list for PBXProject "Solomine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D417968B2F32845400B00DF8 /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D417968D2F32845400B00DF8 /* Build configuration list for PBXNativeTarget "Affilia" */ = {
+		D417968D2F32845400B00DF8 /* Build configuration list for PBXNativeTarget "Solomine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D417968E2F32845400B00DF8 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D41796902F32845400B00DF8 /* Build configuration list for PBXNativeTarget "AffiliaTests" */ = {
+		D41796902F32845400B00DF8 /* Build configuration list for PBXNativeTarget "SolomineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D41796912F32845400B00DF8 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D41796932F32845400B00DF8 /* Build configuration list for PBXNativeTarget "AffiliaUITests" */ = {
+		D41796932F32845400B00DF8 /* Build configuration list for PBXNativeTarget "SolomineUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D41796942F32845400B00DF8 /* Debug */,

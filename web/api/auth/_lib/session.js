@@ -1,8 +1,8 @@
 const crypto = require("crypto");
 
-const SESSION_COOKIE = "affilia_session";
+const SESSION_COOKIE = "solomine_session";
 const SESSION_MAX_AGE_SECONDS = 60 * 60 * 24 * 7; // 7 days
-const FALLBACK_SECRET = "affilia-dev-secret-change-me";
+const FALLBACK_SECRET = "solomine-dev-secret-change-me";
 
 function base64url(input) {
   return Buffer.from(input)
@@ -20,7 +20,7 @@ function unbase64url(input) {
 }
 
 function getSecret() {
-  return process.env.AFFILIA_SESSION_SECRET || FALLBACK_SECRET;
+  return process.env.SOLOMINE_SESSION_SECRET || FALLBACK_SECRET;
 }
 
 function sign(payloadB64) {

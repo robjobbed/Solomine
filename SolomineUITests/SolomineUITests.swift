@@ -1,13 +1,13 @@
 //
-//  AffiliaUITests.swift
-//  AffiliaUITests
+//  SolomineUITests.swift
+//  SolomineUITests
 //
 //  Created by Rob Behbahani on 2/3/26.
 //
 
 import XCTest
 
-final class AffiliaUITests: XCTestCase {
+final class SolomineUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
